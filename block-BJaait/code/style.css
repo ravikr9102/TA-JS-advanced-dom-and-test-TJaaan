@@ -1,0 +1,54 @@
+.input {
+    outline: none;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 250px;
+    padding-left: 10px;
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: 13px;
+  }
+  .input::placeholder{
+      color: #fff;
+  }
+  .adder {
+    position: relative;
+    width: 250px;
+    margin: 0px auto;
+    display: block;
+}
+span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.8;
+    cursor: pointer;
+    transition: all 200ms;
+    color: white;
+  }
+  .draggable {
+    font-weight: 800;
+    height: 50px;
+    list-style-type: none;
+    margin: 10px;
+    background-color: white;
+    width: 250px;
+    line-height: 3.2;
+    padding-left: 10px;
+    cursor: move;
+    transition: all 200ms;
+    user-select: none;
+    margin: 10px auto;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+  }
+  body{
+      background-color: blue;
+  }
